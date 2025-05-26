@@ -4,24 +4,24 @@ body {
   }
 
   header {
-    background-color: #000000;
-    padding: 10px 5px;
+    background-color: #333;
+    padding: 10px 0;
   }
 
   nav ul {
     display: flex;              /* Torna os <li> horizontais */
     list-style: none;           /* Remove os marcadores */
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     justify-content: center;    /* Centraliza os itens no nav */
   }
 
   nav ul li {
-    margin: 0 17px;
+    margin: 0 15px;
   }
 
   nav ul li a {
-    color: rgb(255, 0, 0);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
@@ -29,6 +29,6 @@ body {
   }
 
   nav ul li a:hover {
-    background-color: #ffffff;
+    background-color: #555;
     border-radius: 4px;
   }
